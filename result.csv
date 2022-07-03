@@ -1,0 +1,31 @@
+from,to,cost,path,num_of_days
+Finland,Denmark,11.0,"[('DHL', 'Finland', 'Estonia'), ('DHL', 'Estonia', 'Denmark')]",2
+Finland,Bulgaria,19.0,"[('DHL', 'Finland', 'Estonia'), ('DHL', 'Estonia', 'Denmark'), ('DHL', 'Denmark', 'Bulgaria')]",3
+Finland,Estonia,5.0,"[('DHL', 'Finland', 'Estonia')]",1
+Finland,Crotia,9.0,"[('DHL', 'Finland', 'Estonia'), ('DHL', 'Estonia', 'Crotia')]",2
+Finland,Austria,22.0,"[('DHL', 'Finland', 'Estonia'), ('Fedex', 'Estonia', 'Austria')]",2
+Denmark,Finland,6.0,"[('Fedex', 'Denmark', 'Estonia'), ('DHL', 'Estonia', 'Finland')]",2
+Denmark,Bulgaria,8.0,"[('DHL', 'Denmark', 'Bulgaria')]",1
+Denmark,Estonia,4.0,"[('Fedex', 'Denmark', 'Estonia')]",1
+Denmark,Crotia,8.0,"[('Fedex', 'Denmark', 'Estonia'), ('DHL', 'Estonia', 'Crotia')]",2
+Denmark,Austria,16.0,"[('DHL', 'Denmark', 'Bulgaria'), ('DHL', 'Bulgaria', 'Austria')]",2
+Bulgaria,Finland,12.0,"[('Fedex', 'Bulgaria', 'Denmark'), ('Fedex', 'Denmark', 'Estonia'), ('DHL', 'Estonia', 'Finland')]",3
+Bulgaria,Denmark,6.0,"[('Fedex', 'Bulgaria', 'Denmark')]",1
+Bulgaria,Estonia,10.0,"[('Fedex', 'Bulgaria', 'Denmark'), ('Fedex', 'Denmark', 'Estonia')]",2
+Bulgaria,Crotia,14.0,"[('Fedex', 'Bulgaria', 'Denmark'), ('Fedex', 'Denmark', 'Estonia'), ('DHL', 'Estonia', 'Crotia')]",3
+Bulgaria,Austria,8.0,"[('DHL', 'Bulgaria', 'Austria')]",1
+Estonia,Finland,2.0,"[('DHL', 'Estonia', 'Finland')]",1
+Estonia,Denmark,6.0,"[('DHL', 'Estonia', 'Denmark')]",1
+Estonia,Bulgaria,14.0,"[('DHL', 'Estonia', 'Denmark'), ('DHL', 'Denmark', 'Bulgaria')]",2
+Estonia,Crotia,4.0,"[('DHL', 'Estonia', 'Crotia')]",1
+Estonia,Austria,17.0,"[('Fedex', 'Estonia', 'Austria')]",1
+Crotia,Finland,8.0,"[('DHL', 'Crotia', 'Estonia'), ('DHL', 'Estonia', 'Finland')]",2
+Crotia,Denmark,12.0,"[('DHL', 'Crotia', 'Estonia'), ('DHL', 'Estonia', 'Denmark')]",2
+Crotia,Bulgaria,20.0,"[('DHL', 'Crotia', 'Estonia'), ('DHL', 'Denmark', 'Bulgaria'), ('DHL', 'Estonia', 'Denmark')]",3
+Crotia,Estonia,6.0,"[('DHL', 'Crotia', 'Estonia')]",1
+Crotia,Austria,23.0,"[('DHL', 'Crotia', 'Estonia'), ('Fedex', 'Estonia', 'Austria')]",2
+Austria,Finland,18.0,"[('DHL', 'Austria', 'Bulgaria'), ('Fedex', 'Bulgaria', 'Denmark'), ('Fedex', 'Denmark', 'Estonia'), ('DHL', 'Estonia', 'Finland')]",4
+Austria,Denmark,12.0,"[('DHL', 'Austria', 'Bulgaria'), ('Fedex', 'Bulgaria', 'Denmark')]",2
+Austria,Bulgaria,6.0,"[('DHL', 'Austria', 'Bulgaria')]",1
+Austria,Estonia,16.0,"[('DHL', 'Austria', 'Bulgaria'), ('Fedex', 'Bulgaria', 'Denmark'), ('Fedex', 'Denmark', 'Estonia')]",3
+Austria,Crotia,20.0,"[('DHL', 'Austria', 'Bulgaria'), ('Fedex', 'Bulgaria', 'Denmark'), ('Fedex', 'Denmark', 'Estonia'), ('DHL', 'Estonia', 'Crotia')]",4
